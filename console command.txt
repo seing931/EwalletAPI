@@ -1,0 +1,4 @@
+Install-Package Microsoft.EntityFrameworkCore.Tools
+Tools → NuGet Package Manager → Package Manager Console
+Add-Migration Create-database
+Update-Database
