@@ -1,0 +1,260 @@
+2026-01-15 08:19:12 [Error] Update profile failed | token: "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjMwMzMyNzMsImV4cCI6MTc3MDk4NDQyNX0.W2pSSLX3BLezvFQwrIr_0_tqojx4m3k9FxyyKB-6UI4" | Error: "PUT request failed. Status: 403, Response: {\"success\":false,\"data\":[],\"code\":\"otp_missing\",\"message\":\"OTP required to update Email or Mobile Number\"}"
+System.ApplicationException: PUT request failed. Status: 403, Response: {"success":false,"data":[],"code":"otp_missing","message":"OTP required to update Email or Mobile Number"}
+   at EWallet.Api.Clients.EWalletApiClient.PutAsync[T](String url, String key, Object payload) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Clients\EWalletApiClient.cs:line 72
+   at EWallet.Api.Services.UserService.UpdateProfileAsync(String token, Profile profile) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Services\UserService.cs:line 86
+   at EWallet.Api.Controllers.UsersController.UpdateProfile(String token, ProfileRequest request) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Controllers\UsersController.cs:line 102
+2026-01-15 08:20:45 [Error] Update profile failed | token: "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjMwMzMyNzMsImV4cCI6MTc3MDk4NDQyNX0.W2pSSLX3BLezvFQwrIr_0_tqojx4m3k9FxyyKB-6UI4" | Error: "PUT request failed. Status: 403, Response: {\"success\":false,\"data\":[],\"code\":\"invalid_country\",\"message\":\"Invalid country, alphabets and spaces only allowed\"}"
+System.ApplicationException: PUT request failed. Status: 403, Response: {"success":false,"data":[],"code":"invalid_country","message":"Invalid country, alphabets and spaces only allowed"}
+   at EWallet.Api.Clients.EWalletApiClient.PutAsync[T](String url, String key, Object payload) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Clients\EWalletApiClient.cs:line 72
+   at EWallet.Api.Services.UserService.UpdateProfileAsync(String token, Profile profile) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Services\UserService.cs:line 86
+   at EWallet.Api.Controllers.UsersController.UpdateProfile(String token, ProfileRequest request) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Controllers\UsersController.cs:line 102
+2026-01-15 08:21:34 [Error] Update profile failed | token: "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjMwMzMyNzMsImV4cCI6MTc3MDk4NDQyNX0.W2pSSLX3BLezvFQwrIr_0_tqojx4m3k9FxyyKB-6UI4" | Error: "PUT request failed. Status: 403, Response: {\"success\":false,\"data\":[],\"code\":\"otp_missing\",\"message\":\"OTP required to update Email or Mobile Number\"}"
+System.ApplicationException: PUT request failed. Status: 403, Response: {"success":false,"data":[],"code":"otp_missing","message":"OTP required to update Email or Mobile Number"}
+   at EWallet.Api.Clients.EWalletApiClient.PutAsync[T](String url, String key, Object payload) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Clients\EWalletApiClient.cs:line 72
+   at EWallet.Api.Services.UserService.UpdateProfileAsync(String token, Profile profile) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Services\UserService.cs:line 86
+   at EWallet.Api.Controllers.UsersController.UpdateProfile(String token, ProfileRequest request) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Controllers\UsersController.cs:line 102
+2026-01-15 08:28:39 [Error] Update profile failed | token: "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjMwMzMyNzMsImV4cCI6MTc3MDk4NDQyNX0.W2pSSLX3BLezvFQwrIr_0_tqojx4m3k9FxyyKB-6UI4" | Error: "PUT request failed. Status: 403, Response: {\"success\":false,\"data\":[],\"code\":\"validation_error\",\"message\":\"Invalid email entered\"}"
+System.ApplicationException: PUT request failed. Status: 403, Response: {"success":false,"data":[],"code":"validation_error","message":"Invalid email entered"}
+   at EWallet.Api.Clients.EWalletApiClient.PutAsync[T](String url, String key, Object payload) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Clients\EWalletApiClient.cs:line 72
+   at EWallet.Api.Services.UserService.UpdateProfileAsync(String token, Profile profile) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Services\UserService.cs:line 86
+   at EWallet.Api.Controllers.UsersController.UpdateProfile(String token, ProfileRequest request) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Controllers\UsersController.cs:line 102
+2026-01-15 08:30:37 [Error] Update profile failed | token: "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjMwMzMyNzMsImV4cCI6MTc3MDk4NDQyNX0.W2pSSLX3BLezvFQwrIr_0_tqojx4m3k9" | Error: "PUT request failed. Status: 403, Response: {\"success\":false,\"data\":[],\"code\":\"invalid_token\",\"message\":\"Invalid token\"}"
+System.ApplicationException: PUT request failed. Status: 403, Response: {"success":false,"data":[],"code":"invalid_token","message":"Invalid token"}
+   at EWallet.Api.Clients.EWalletApiClient.PutAsync[T](String url, String key, Object payload) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Clients\EWalletApiClient.cs:line 72
+   at EWallet.Api.Services.UserService.UpdateProfileAsync(String token, Profile profile) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Services\UserService.cs:line 86
+   at EWallet.Api.Controllers.UsersController.UpdateProfile(String token, ProfileRequest request) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Controllers\UsersController.cs:line 102
+2026-01-15 08:37:29 [Error] Top up failed | OrderRef: "57ec89ab95baf" | OrderTotal : 15.00 | Error: "API 404: {\"message\":\"Not Found\",\"url\":\"\/api\/v2.1\/thirdparty\/gateway\/topup\",\"code\":404}"
+System.Exception: API 404: {"message":"Not Found","url":"\/api\/v2.1\/thirdparty\/gateway\/topup","code":404}
+   at EWallet.Api.Clients.EWalletApiClient.PostAsync[T](String url, Object payload) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Clients\EWalletApiClient.cs:line 34
+   at EWallet.Api.Services.WalletService.TopupAsync(TopupTransaction topup) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Services\WalletService.cs:line 53
+   at EWallet.Api.Controllers.WalletController.Topup(TopupRequest request) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Controllers\WalletController.cs:line 38
+2026-01-15 08:40:13 [Error] Top up failed | OrderRef: "57ec89ab95baf" | OrderTotal : 15.00 | Error: "API 404: {\"message\":\"Not Found\",\"url\":\"\/api\/v2.1\/thirdparty\/gateway\/topup\",\"code\":404}"
+System.Exception: API 404: {"message":"Not Found","url":"\/api\/v2.1\/thirdparty\/gateway\/topup","code":404}
+   at EWallet.Api.Clients.EWalletApiClient.PostAsync[T](String url, Object payload) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Clients\EWalletApiClient.cs:line 34
+   at EWallet.Api.Services.WalletService.TopupAsync(TopupTransaction topup) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Services\WalletService.cs:line 53
+   at EWallet.Api.Controllers.WalletController.Topup(TopupRequest request) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Controllers\WalletController.cs:line 38
+2026-01-15 08:41:31 [Error] Top up failed | OrderRef: "57ec89ab95baf" | OrderTotal : 15.00 | Error: "API 404: {\"message\":\"Not Found\",\"url\":\"\/api\/v2.1\/thirdparty\/gateway\/topup\",\"code\":404}"
+System.Exception: API 404: {"message":"Not Found","url":"\/api\/v2.1\/thirdparty\/gateway\/topup","code":404}
+   at EWallet.Api.Clients.EWalletApiClient.PostAsync[T](String url, Object payload) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Clients\EWalletApiClient.cs:line 34
+   at EWallet.Api.Services.WalletService.TopupAsync(TopupTransaction topup) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Services\WalletService.cs:line 53
+   at EWallet.Api.Controllers.WalletController.Topup(TopupRequest request) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Controllers\WalletController.cs:line 38
+2026-01-15 08:42:23 [Error] Top up failed | OrderRef: "57ec89ab95baf" | OrderTotal : 15.00 | Error: "API 404: {\"message\":\"Not Found\",\"url\":\"\/api\/v2.1\/thirdparty\/gateway\/topup\",\"code\":404}"
+System.Exception: API 404: {"message":"Not Found","url":"\/api\/v2.1\/thirdparty\/gateway\/topup","code":404}
+   at EWallet.Api.Clients.EWalletApiClient.PostAsync[T](String url, Object payload) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Clients\EWalletApiClient.cs:line 34
+   at EWallet.Api.Services.WalletService.TopupAsync(TopupTransaction topup) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Services\WalletService.cs:line 53
+   at EWallet.Api.Controllers.WalletController.Topup(TopupRequest request) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Controllers\WalletController.cs:line 38
+2026-01-15 08:44:09 [Error] Top up failed | OrderRef: "57ec89ab95baf" | OrderTotal : 15.00 | Error: "API 404: {\"message\":\"Not Found\",\"url\":\"\/api\/v2.1\/thirdparty\/gateway\/topup\",\"code\":404}"
+System.Exception: API 404: {"message":"Not Found","url":"\/api\/v2.1\/thirdparty\/gateway\/topup","code":404}
+   at EWallet.Api.Clients.EWalletApiClient.PostAsync[T](String url, Object payload) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Clients\EWalletApiClient.cs:line 34
+   at EWallet.Api.Services.WalletService.TopupAsync(TopupTransaction topup) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Services\WalletService.cs:line 53
+   at EWallet.Api.Controllers.WalletController.Topup(TopupRequest request) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Controllers\WalletController.cs:line 38
+2026-01-15 08:44:17 [Error] Top up failed | OrderRef: "57ec89ab95baf" | OrderTotal : 15.00 | Error: "API 404: {\"message\":\"Not Found\",\"url\":\"\/api\/v2.1\/thirdparty\/gateway\/topup\",\"code\":404}"
+System.Exception: API 404: {"message":"Not Found","url":"\/api\/v2.1\/thirdparty\/gateway\/topup","code":404}
+   at EWallet.Api.Clients.EWalletApiClient.PostAsync[T](String url, Object payload) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Clients\EWalletApiClient.cs:line 34
+   at EWallet.Api.Services.WalletService.TopupAsync(TopupTransaction topup) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Services\WalletService.cs:line 53
+   at EWallet.Api.Controllers.WalletController.Topup(TopupRequest request) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Controllers\WalletController.cs:line 38
+2026-01-15 08:44:32 [Error] Top up failed | OrderRef: "57ec89ab95baf" | OrderTotal : 15.00 | Error: "API 404: {\"message\":\"Not Found\",\"url\":\"\/api\/v2.1\/thirdparty\/gateway\/topup\",\"code\":404}"
+System.Exception: API 404: {"message":"Not Found","url":"\/api\/v2.1\/thirdparty\/gateway\/topup","code":404}
+   at EWallet.Api.Clients.EWalletApiClient.PostAsync[T](String url, Object payload) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Clients\EWalletApiClient.cs:line 34
+   at EWallet.Api.Services.WalletService.TopupAsync(TopupTransaction topup) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Services\WalletService.cs:line 53
+   at EWallet.Api.Controllers.WalletController.Topup(TopupRequest request) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Controllers\WalletController.cs:line 38
+2026-01-15 09:18:13 [Error] Register API failed | Username: "string" | NRIC: "string" | Error: "API 403: {\"success\":false,\"data\":[],\"code\":\"validation_error\",\"message\":\"Password must be at least 8 characters and maximum of 32 characters\"}"
+System.Exception: API 403: {"success":false,"data":[],"code":"validation_error","message":"Password must be at least 8 characters and maximum of 32 characters"}
+   at EWallet.Api.Clients.EWalletApiClient.PostAsync[T](String url, Object payload) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Clients\EWalletApiClient.cs:line 34
+   at EWallet.Api.Services.UserService.RegisterUserAsync(User user, String password) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Services\UserService.cs:line 45
+   at EWallet.Api.Controllers.UsersController.Register(RegisterRequest request) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Controllers\UsersController.cs:line 40
+2026-01-15 09:19:07 [Error] Register API failed | Username: "daniel.lee" | NRIC: "string" | Error: "API 403: {\"success\":false,\"data\":[],\"code\":\"validation_error\",\"message\":\"Invalid email entered\"}"
+System.Exception: API 403: {"success":false,"data":[],"code":"validation_error","message":"Invalid email entered"}
+   at EWallet.Api.Clients.EWalletApiClient.PostAsync[T](String url, Object payload) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Clients\EWalletApiClient.cs:line 34
+   at EWallet.Api.Services.UserService.RegisterUserAsync(User user, String password) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Services\UserService.cs:line 45
+   at EWallet.Api.Controllers.UsersController.Register(RegisterRequest request) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Controllers\UsersController.cs:line 40
+2026-01-15 09:31:59 [Error] Retrieve profile failed | token: "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjE3MSwiZXhwIjoxNDc1NzIzNjYzfQ.Q8AUcSoQ_E57jiqMh22Bvs1LdGV7_xS0WAl2O2rCx3o" | Error: "API 403: {\"success\":false,\"data\":[],\"code\":\"invalid_token\",\"message\":\"Invalid token\"}"
+System.Exception: API 403: {"success":false,"data":[],"code":"invalid_token","message":"Invalid token"}
+   at EWallet.Api.Clients.EWalletApiClient.GetAsync[T](String url, String key) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Clients\EWalletApiClient.cs:line 52
+   at EWallet.Api.Services.UserService.GetProfileAsync(String token) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Services\UserService.cs:line 64
+   at EWallet.Api.Controllers.UsersController.Profile(String token) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Controllers\UsersController.cs:line 70
+2026-01-15 09:36:31 [Error] Update profile failed | token: "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjMwMzMyNzMsImV4cCI6MTc3MDk4NDQyNX0.W2pSSLX3BLezvFQwrIr_0_tqojx4m3k9FxyyKB-6UI4" | Error: "PUT request failed. Status: 403, Response: {\"success\":false,\"data\":[],\"code\":\"incorrect_otp\",\"message\":\"Incorrect OTP entered\"}"
+System.ApplicationException: PUT request failed. Status: 403, Response: {"success":false,"data":[],"code":"incorrect_otp","message":"Incorrect OTP entered"}
+   at EWallet.Api.Clients.EWalletApiClient.PutAsync[T](String url, String key, Object payload) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Clients\EWalletApiClient.cs:line 75
+   at EWallet.Api.Services.UserService.UpdateProfileAsync(String token, Profile profile) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Services\UserService.cs:line 86
+   at EWallet.Api.Controllers.UsersController.UpdateProfile(String token, ProfileRequest request) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Controllers\UsersController.cs:line 102
+2026-01-15 09:38:28 [Error] Update profile failed | token: "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjMwMzMyNzMsImV4cCI6MTc3MDk4NDQyNX0.W2pSSLX3BLezvFQwrIr_0_tqojx4m3k9FxyyKB-6UI4" | Error: "PUT request failed. Status: 403, Response: {\"success\":false,\"data\":[],\"code\":\"incorrect_otp\",\"message\":\"Incorrect OTP entered\"}"
+System.ApplicationException: PUT request failed. Status: 403, Response: {"success":false,"data":[],"code":"incorrect_otp","message":"Incorrect OTP entered"}
+   at EWallet.Api.Clients.EWalletApiClient.PutAsync[T](String url, String key, Object payload) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Clients\EWalletApiClient.cs:line 73
+   at EWallet.Api.Services.UserService.UpdateProfileAsync(String token, Profile profile) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Services\UserService.cs:line 86
+   at EWallet.Api.Controllers.UsersController.UpdateProfile(String token, ProfileRequest request) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Controllers\UsersController.cs:line 102
+2026-01-15 09:39:00 [Error] Update profile failed | token: "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjMwMzMyNzMsImV4cCI6MTc3MDk4NDQyNX0.W2pSSLX3BLezvFQwrIr_0_tqojx4m3k9FxyyKB-6UI4" | Error: "PUT request failed. Status: 403, Response: {\"success\":false,\"data\":[],\"code\":\"incorrect_otp\",\"message\":\"Incorrect OTP entered\"}"
+System.ApplicationException: PUT request failed. Status: 403, Response: {"success":false,"data":[],"code":"incorrect_otp","message":"Incorrect OTP entered"}
+   at EWallet.Api.Clients.EWalletApiClient.PutAsync[T](String url, String key, Object payload) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Clients\EWalletApiClient.cs:line 73
+   at EWallet.Api.Services.UserService.UpdateProfileAsync(String token, Profile profile) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Services\UserService.cs:line 86
+   at EWallet.Api.Controllers.UsersController.UpdateProfile(String token, ProfileRequest request) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Controllers\UsersController.cs:line 102
+2026-01-15 09:39:51 [Error] Update profile failed | token: "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjMwMzMyNzMsImV4cCI6MTc3MDk4NDQyNX0.W2pSSLX3BLezvFQwrIr_0_tqojx4m3k9FxyyKB-6UI4" | Error: "PUT request failed. Status: 403, Response: {\"success\":false,\"data\":[],\"code\":\"incorrect_otp\",\"message\":\"Incorrect OTP entered\"}"
+System.ApplicationException: PUT request failed. Status: 403, Response: {"success":false,"data":[],"code":"incorrect_otp","message":"Incorrect OTP entered"}
+   at EWallet.Api.Clients.EWalletApiClient.PutAsync[T](String url, String key, Object payload) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Clients\EWalletApiClient.cs:line 73
+   at EWallet.Api.Services.UserService.UpdateProfileAsync(String token, Profile profile) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Services\UserService.cs:line 86
+   at EWallet.Api.Controllers.UsersController.UpdateProfile(String token, ProfileRequest request) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Controllers\UsersController.cs:line 102
+2026-01-15 09:40:12 [Error] Update profile failed | token: "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjMwMzMyNzMsImV4cCI6MTc3MDk4NDQyNX0.W2pSSLX3BLezvFQwrIr_0_tqojx4m3k9FxyyKB-6UI4" | Error: "PUT request failed. Status: 403, Response: {\"success\":false,\"data\":[],\"code\":\"incorrect_otp\",\"message\":\"Incorrect OTP entered\"}"
+System.ApplicationException: PUT request failed. Status: 403, Response: {"success":false,"data":[],"code":"incorrect_otp","message":"Incorrect OTP entered"}
+   at EWallet.Api.Clients.EWalletApiClient.PutAsync[T](String url, String key, Object payload) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Clients\EWalletApiClient.cs:line 73
+   at EWallet.Api.Services.UserService.UpdateProfileAsync(String token, Profile profile) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Services\UserService.cs:line 86
+   at EWallet.Api.Controllers.UsersController.UpdateProfile(String token, ProfileRequest request) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Controllers\UsersController.cs:line 102
+2026-01-15 09:41:45 [Error] Update profile failed | token: "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjMwMzMyNzMsImV4cCI6MTc3MDk4NDQyNX0.W2pSSLX3BLezvFQwrIr_0_tqojx4m3k9FxyyKB-6UI4" | Error: "PUT request failed. Status: 403, Response: {\"success\":false,\"data\":[],\"code\":\"incorrect_otp\",\"message\":\"Incorrect OTP entered\"}"
+System.ApplicationException: PUT request failed. Status: 403, Response: {"success":false,"data":[],"code":"incorrect_otp","message":"Incorrect OTP entered"}
+   at EWallet.Api.Clients.EWalletApiClient.PutAsync[T](String url, String key, Object payload) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Clients\EWalletApiClient.cs:line 73
+   at EWallet.Api.Services.UserService.UpdateProfileAsync(String token, Profile profile) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Services\UserService.cs:line 86
+   at EWallet.Api.Controllers.UsersController.UpdateProfile(String token, ProfileRequest request) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Controllers\UsersController.cs:line 102
+2026-01-15 09:43:33 [Error] Update profile failed | token: "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjMwMzMyNzMsImV4cCI6MTc3MDk4NDQyNX0.W2pSSLX3BLezvFQwrIr_0_tqojx4m3k9FxyyKB-6UI4" | Error: "PUT request failed. Status: 403, Response: {\"success\":false,\"data\":[],\"code\":\"incorrect_otp\",\"message\":\"Incorrect OTP entered\"}"
+System.ApplicationException: PUT request failed. Status: 403, Response: {"success":false,"data":[],"code":"incorrect_otp","message":"Incorrect OTP entered"}
+   at EWallet.Api.Clients.EWalletApiClient.PutAsync[T](String url, String key, Object payload) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Clients\EWalletApiClient.cs:line 73
+   at EWallet.Api.Services.UserService.UpdateProfileAsync(String token, Profile profile) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Services\UserService.cs:line 86
+   at EWallet.Api.Controllers.UsersController.UpdateProfile(String token, ProfileRequest request) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Controllers\UsersController.cs:line 102
+2026-01-15 09:52:33 [Error] Retrieve profile failed | token: "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjE3MSwiZXhwIjoxNDc1NzIzNjYzfQ.Q8AUcSoQ_E57jiqMh22Bvs1LdGV7_xS0WAl2O2rCx3o" | Error: "API 403: {\"success\":false,\"data\":[],\"code\":\"invalid_token\",\"message\":\"Invalid token\"}"
+System.Exception: API 403: {"success":false,"data":[],"code":"invalid_token","message":"Invalid token"}
+   at EWallet.Api.Clients.EWalletApiClient.GetAsync[T](String url, String key) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Clients\EWalletApiClient.cs:line 52
+   at EWallet.Api.Services.UserService.GetProfileAsync(String token) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Services\UserService.cs:line 64
+   at EWallet.Api.Controllers.UsersController.Profile(String token) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Controllers\UsersController.cs:line 70
+2026-01-15 09:55:01 [Error] Update profile failed | token: "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjMwMzMyNzMsImV4cCI6MTc3MDk4NDQyNX0.W2pSSLX3BLezvFQwrIr_0_tqojx4m3k9FxyyKB-6UI4" | Error: "PUT request failed. Status: 403, Response: {\"success\":false,\"data\":[],\"code\":\"incorrect_otp\",\"message\":\"Incorrect OTP entered\"}"
+System.ApplicationException: PUT request failed. Status: 403, Response: {"success":false,"data":[],"code":"incorrect_otp","message":"Incorrect OTP entered"}
+   at EWallet.Api.Clients.EWalletApiClient.PutAsync[T](String url, String key, Object payload) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Clients\EWalletApiClient.cs:line 73
+   at EWallet.Api.Services.UserService.UpdateProfileAsync(String token, Profile profile) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Services\UserService.cs:line 86
+   at EWallet.Api.Controllers.UsersController.UpdateProfile(String token, ProfileRequest request) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Controllers\UsersController.cs:line 102
+2026-01-15 12:50:46 [Error] Update profile failed | token: "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjMwMzMyNzUsImV4cCI6MTc3MTAzNzYzNn0.XOmJy5uXklswLmlDf4cBV9bXru-0L0jar8NM5raUn_4" | Error: "PUT request failed. Status: 403, Response: {\"success\":false,\"data\":[],\"code\":\"mobile_number_exist_as_username\",\"message\":\"This mobile already belongs to another user\"}"
+System.ApplicationException: PUT request failed. Status: 403, Response: {"success":false,"data":[],"code":"mobile_number_exist_as_username","message":"This mobile already belongs to another user"}
+   at EWallet.Api.Clients.EWalletApiClient.PutAsync[T](String url, String key, Object payload) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Clients\EWalletApiClient.cs:line 67
+   at EWallet.Api.Services.UserService.UpdateProfileAsync(String token, ProfileLog profile) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Services\UserService.cs:line 106
+   at EWallet.Api.Controllers.UsersController.UpdateProfile(String token, ProfileRequest request) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Controllers\UsersController.cs:line 103
+2026-01-15 12:52:34 [Error] Update profile failed | token: "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjMwMzMyNzUsImV4cCI6MTc3MTAzNzYzNn0.XOmJy5uXklswLmlDf4cBV9bXru-0L0jar8NM5raUn_4" | Error: "PUT request failed. Status: 403, Response: {\"success\":false,\"data\":[],\"code\":\"email_already_exist\",\"message\":\"This email is used by another user\"}"
+System.ApplicationException: PUT request failed. Status: 403, Response: {"success":false,"data":[],"code":"email_already_exist","message":"This email is used by another user"}
+   at EWallet.Api.Clients.EWalletApiClient.PutAsync[T](String url, String key, Object payload) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Clients\EWalletApiClient.cs:line 67
+   at EWallet.Api.Services.UserService.UpdateProfileAsync(String token, ProfileLog profile) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Services\UserService.cs:line 106
+   at EWallet.Api.Controllers.UsersController.UpdateProfile(String token, ProfileRequest request) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Controllers\UsersController.cs:line 103
+2026-01-15 12:56:10 [Error] Failed executing DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE `profileslogs` (
+    `Id` bigint NOT NULL AUTO_INCREMENT,
+    `FullName` varchar(255) CHARACTER SET utf8mb4 NULL,
+    `MobileNumber` varchar(20) CHARACTER SET utf8mb4 NULL,
+    `Email` varchar(255) CHARACTER SET utf8mb4 NULL,
+    `DateOfBirth` datetime(6) NULL,
+    `UserRace` int NULL,
+    `Address` varchar(500) CHARACTER SET utf8mb4 NULL,
+    `City` varchar(100) CHARACTER SET utf8mb4 NULL,
+    `State` varchar(100) CHARACTER SET utf8mb4 NULL,
+    `Postcode` varchar(10) CHARACTER SET utf8mb4 NULL,
+    `Country` varchar(2) CHARACTER SET utf8mb4 NULL,
+    `FaxNumber` varchar(20) CHARACTER SET utf8mb4 NULL,
+    `Otp` varchar(10) CHARACTER SET utf8mb4 NULL,
+    `CreatedAt` datetime(6) NOT NULL,
+    `Token` longtext CHARACTER SET utf8mb4 NULL,
+    CONSTRAINT `PK_profileslogs` PRIMARY KEY (`Id`)
+) CHARACTER SET=utf8mb4;"
+2026-01-15 12:56:35 [Error] Failed executing DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE `TopupTransactions` (
+    `Id` bigint NOT NULL AUTO_INCREMENT,
+    `OrderRef` varchar(100) CHARACTER SET utf8mb4 NOT NULL,
+    `OrderDate` datetime(6) NOT NULL,
+    `OrderAmount` decimal(18,2) NOT NULL,
+    `OrderUrl` longtext CHARACTER SET utf8mb4 NOT NULL,
+    `MerchantId` varchar(50) CHARACTER SET utf8mb4 NOT NULL,
+    `AuthToken` longtext CHARACTER SET utf8mb4 NOT NULL,
+    `MerchantHashValue` longtext CHARACTER SET utf8mb4 NOT NULL,
+    `checkout2` longtext CHARACTER SET utf8mb4 NOT NULL,
+    `wcID` longtext CHARACTER SET utf8mb4 NOT NULL,
+    `ReturnCode` varchar(10) CHARACTER SET utf8mb4 NOT NULL,
+    `orderKey` longtext CHARACTER SET utf8mb4 NOT NULL,
+    `CreatedAt` datetime(6) NOT NULL,
+    CONSTRAINT `PK_TopupTransactions` PRIMARY KEY (`Id`)
+) CHARACTER SET=utf8mb4;"
+2026-01-15 12:58:36 [Error] Update profile failed | token: "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjMwMzMyNzUsImV4cCI6MTc3MTAzNzYzNn0.XOmJy5uXklswLmlDf4cBV9bXru-0L0jar8NM5raUn_4" | Error: "PUT request failed. Status: 403, Response: {\"success\":false,\"data\":[],\"code\":\"email_already_exist\",\"message\":\"This email is used by another user\"}"
+System.ApplicationException: PUT request failed. Status: 403, Response: {"success":false,"data":[],"code":"email_already_exist","message":"This email is used by another user"}
+   at EWallet.Api.Clients.EWalletApiClient.PutAsync[T](String url, String key, Object payload) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Clients\EWalletApiClient.cs:line 67
+   at EWallet.Api.Services.UserService.UpdateProfileAsync(String token, ProfileLog profile) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Services\UserService.cs:line 106
+   at EWallet.Api.Controllers.UsersController.UpdateProfile(String token, ProfileRequest request) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Controllers\UsersController.cs:line 103
+2026-01-15 12:59:10 [Error] Update profile failed | token: "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjMwMzMyNzUsImV4cCI6MTc3MTAzNzYzNn0.XOmJy5uXklswLmlDf4cBV9bXru-0L0jar8NM5raUn_4" | Error: "PUT request failed. Status: 403, Response: {\"success\":false,\"data\":[],\"code\":\"incorrect_otp\",\"message\":\"Incorrect OTP entered\"}"
+System.ApplicationException: PUT request failed. Status: 403, Response: {"success":false,"data":[],"code":"incorrect_otp","message":"Incorrect OTP entered"}
+   at EWallet.Api.Clients.EWalletApiClient.PutAsync[T](String url, String key, Object payload) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Clients\EWalletApiClient.cs:line 67
+   at EWallet.Api.Services.UserService.UpdateProfileAsync(String token, ProfileLog profile) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Services\UserService.cs:line 106
+   at EWallet.Api.Controllers.UsersController.UpdateProfile(String token, ProfileRequest request) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Controllers\UsersController.cs:line 103
+2026-01-15 12:59:43 [Error] Update profile failed | token: "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjMwMzMyNzUsImV4cCI6MTc3MTAzNzYzNn0.XOmJy5uXklswLmlDf4cBV9bXru-0L0jar8NM5raUn_4" | Error: "PUT request failed. Status: 403, Response: {\"success\":false,\"data\":[],\"code\":\"incorrect_otp\",\"message\":\"Incorrect OTP entered\"}"
+System.ApplicationException: PUT request failed. Status: 403, Response: {"success":false,"data":[],"code":"incorrect_otp","message":"Incorrect OTP entered"}
+   at EWallet.Api.Clients.EWalletApiClient.PutAsync[T](String url, String key, Object payload) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Clients\EWalletApiClient.cs:line 67
+   at EWallet.Api.Services.UserService.UpdateProfileAsync(String token, ProfileLog profile) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Services\UserService.cs:line 106
+   at EWallet.Api.Controllers.UsersController.UpdateProfile(String token, ProfileRequest request) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Controllers\UsersController.cs:line 103
+2026-01-15 13:00:24 [Error] Update profile failed | token: "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjMwMzMyNzUsImV4cCI6MTc3MTAzNzYzNn0.XOmJy5uXklswLmlDf4cBV9bXru-0L0jar8NM5raUn_4" | Error: "PUT request failed. Status: 403, Response: {\"success\":false,\"data\":[],\"code\":\"incorrect_otp\",\"message\":\"Incorrect OTP entered\"}"
+System.ApplicationException: PUT request failed. Status: 403, Response: {"success":false,"data":[],"code":"incorrect_otp","message":"Incorrect OTP entered"}
+   at EWallet.Api.Clients.EWalletApiClient.PutAsync[T](String url, String key, Object payload) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Clients\EWalletApiClient.cs:line 67
+   at EWallet.Api.Services.UserService.UpdateProfileAsync(String token, ProfileLog profile) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Services\UserService.cs:line 106
+   at EWallet.Api.Controllers.UsersController.UpdateProfile(String token, ProfileRequest request) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Controllers\UsersController.cs:line 103
+2026-01-15 13:14:18 [Error] Update profile failed | token: "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjMwMzMyNzUsImV4cCI6MTc3MTAzNzYzNn0.XOmJy5uXklswLmlDf4cBV9bXru-0L0jar8NM5raUn_4" | Error: "PUT request failed. Status: 403, Response: {\"success\":false,\"data\":[],\"code\":\"mobile_number_exist_as_username\",\"message\":\"This mobile already belongs to another user\"}"
+System.ApplicationException: PUT request failed. Status: 403, Response: {"success":false,"data":[],"code":"mobile_number_exist_as_username","message":"This mobile already belongs to another user"}
+   at EWallet.Api.Clients.EWalletApiClient.PutAsync[T](String url, String key, Object payload) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Clients\EWalletApiClient.cs:line 67
+   at EWallet.Api.Services.UserService.UpdateProfileAsync(String token, ProfileLog profile) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Services\UserService.cs:line 106
+   at EWallet.Api.Controllers.UsersController.UpdateProfile(String token, ProfileRequest request) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Controllers\UsersController.cs:line 103
+2026-01-15 13:16:55 [Error] Update profile failed | token: "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjMwMzMyNzUsImV4cCI6MTc3MTAzNzYzNn0.XOmJy5uXklswLmlDf4cBV9bXru-0L0jar8NM5raUn_4" | Error: "Value cannot be null. (Parameter 's')"
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.DateTime.Parse(String s)
+   at EWallet.Api.Services.UserService.UpdateProfileAsync(String token, ProfileLog profile) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Services\UserService.cs:line 113
+   at EWallet.Api.Controllers.UsersController.UpdateProfile(String token, ProfileRequest request) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Controllers\UsersController.cs:line 103
+2026-01-15 13:23:01 [Error] Update profile failed | token: "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjMwMzMyNzUsImV4cCI6MTc3MTAzNzYzNn0.XOmJy5uXklswLmlDf4cBV9bXru-0L0jar8NM5raUn_4" | Error: "PUT request failed. Status: 403, Response: {\"success\":false,\"data\":[],\"code\":\"incorrect_otp\",\"message\":\"Incorrect OTP entered\"}"
+System.ApplicationException: PUT request failed. Status: 403, Response: {"success":false,"data":[],"code":"incorrect_otp","message":"Incorrect OTP entered"}
+   at EWallet.Api.Clients.EWalletApiClient.PutAsync[T](String url, String key, Object payload) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Clients\EWalletApiClient.cs:line 67
+   at EWallet.Api.Services.UserService.UpdateProfileAsync(String token, ProfileLog profile) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Services\UserService.cs:line 106
+   at EWallet.Api.Controllers.UsersController.UpdateProfile(String token, ProfileRequest request) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Controllers\UsersController.cs:line 103
+2026-01-15 13:23:25 [Error] Update profile failed | token: "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjMwMzMyNzUsImV4cCI6MTc3MTAzNzYzNn0.XOmJy5uXklswLmlDf4cBV9bXru-0L0jar8NM5raUn_4" | Error: "PUT request failed. Status: 403, Response: {\"success\":false,\"data\":[],\"code\":\"incorrect_otp\",\"message\":\"Incorrect OTP entered\"}"
+System.ApplicationException: PUT request failed. Status: 403, Response: {"success":false,"data":[],"code":"incorrect_otp","message":"Incorrect OTP entered"}
+   at EWallet.Api.Clients.EWalletApiClient.PutAsync[T](String url, String key, Object payload) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Clients\EWalletApiClient.cs:line 67
+   at EWallet.Api.Services.UserService.UpdateProfileAsync(String token, ProfileLog profile) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Services\UserService.cs:line 106
+   at EWallet.Api.Controllers.UsersController.UpdateProfile(String token, ProfileRequest request) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Controllers\UsersController.cs:line 103
+2026-01-15 13:40:28 [Error] Update profile failed | token: "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjMwMzMyNzUsImV4cCI6MTc3MTAzNzYzNn0.XOmJy5uXklswLmlDf4cBV9bXru-0L0jar8NM5raUn_4" | Error: "PUT request failed. Status: 403, Response: {\"success\":false,\"data\":[],\"code\":\"incorrect_otp\",\"message\":\"Incorrect OTP entered\"}"
+System.ApplicationException: PUT request failed. Status: 403, Response: {"success":false,"data":[],"code":"incorrect_otp","message":"Incorrect OTP entered"}
+   at EWallet.Api.Clients.EWalletApiClient.PutAsync[T](String url, String key, Object payload) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Clients\EWalletApiClient.cs:line 67
+   at EWallet.Api.Services.UserService.UpdateProfileAsync(String token, ProfileLog profile) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Services\UserService.cs:line 106
+   at EWallet.Api.Controllers.UsersController.UpdateProfile(String token, ProfileRequest request) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Controllers\UsersController.cs:line 103
+2026-01-15 13:40:39 [Error] Update profile failed | token: "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjMwMzMyNzUsImV4cCI6MTc3MTAzNzYzNn0.XOmJy5uXklswLmlDf4cBV9bXru-0L0jar8NM5raUn_4" | Error: "PUT request failed. Status: 403, Response: {\"success\":false,\"data\":[],\"code\":\"incorrect_otp\",\"message\":\"Incorrect OTP entered\"}"
+System.ApplicationException: PUT request failed. Status: 403, Response: {"success":false,"data":[],"code":"incorrect_otp","message":"Incorrect OTP entered"}
+   at EWallet.Api.Clients.EWalletApiClient.PutAsync[T](String url, String key, Object payload) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Clients\EWalletApiClient.cs:line 67
+   at EWallet.Api.Services.UserService.UpdateProfileAsync(String token, ProfileLog profile) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Services\UserService.cs:line 106
+   at EWallet.Api.Controllers.UsersController.UpdateProfile(String token, ProfileRequest request) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Controllers\UsersController.cs:line 103
+2026-01-15 13:40:50 [Error] Update profile failed | token: "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjMwMzMyNzUsImV4cCI6MTc3MTAzNzYzNn0.XOmJy5uXklswLmlDf4cBV9bXru-0L0jar8NM5raUn_4" | Error: "PUT request failed. Status: 403, Response: {\"success\":false,\"data\":[],\"code\":\"incorrect_otp\",\"message\":\"Incorrect OTP entered\"}"
+System.ApplicationException: PUT request failed. Status: 403, Response: {"success":false,"data":[],"code":"incorrect_otp","message":"Incorrect OTP entered"}
+   at EWallet.Api.Clients.EWalletApiClient.PutAsync[T](String url, String key, Object payload) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Clients\EWalletApiClient.cs:line 67
+   at EWallet.Api.Services.UserService.UpdateProfileAsync(String token, ProfileLog profile) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Services\UserService.cs:line 106
+   at EWallet.Api.Controllers.UsersController.UpdateProfile(String token, ProfileRequest request) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Controllers\UsersController.cs:line 103
+2026-01-15 13:41:00 [Error] Update profile failed | token: "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjMwMzMyNzUsImV4cCI6MTc3MTAzNzYzNn0.XOmJy5uXklswLmlDf4cBV9bXru-0L0jar8NM5raUn_4" | Error: "PUT request failed. Status: 403, Response: {\"success\":false,\"data\":[],\"code\":\"incorrect_otp\",\"message\":\"Incorrect OTP entered\"}"
+System.ApplicationException: PUT request failed. Status: 403, Response: {"success":false,"data":[],"code":"incorrect_otp","message":"Incorrect OTP entered"}
+   at EWallet.Api.Clients.EWalletApiClient.PutAsync[T](String url, String key, Object payload) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Clients\EWalletApiClient.cs:line 67
+   at EWallet.Api.Services.UserService.UpdateProfileAsync(String token, ProfileLog profile) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Services\UserService.cs:line 106
+   at EWallet.Api.Controllers.UsersController.UpdateProfile(String token, ProfileRequest request) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Controllers\UsersController.cs:line 103
+2026-01-15 13:41:27 [Error] Update profile failed | token: "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjMwMzMyNzUsImV4cCI6MTc3MTAzNzYzNn0.XOmJy5uXklswLmlDf4cBV9bXru-0L0jar8NM5raUn_4" | Error: "PUT request failed. Status: 403, Response: {\"success\":false,\"data\":[],\"code\":\"incorrect_otp\",\"message\":\"Incorrect OTP entered\"}"
+System.ApplicationException: PUT request failed. Status: 403, Response: {"success":false,"data":[],"code":"incorrect_otp","message":"Incorrect OTP entered"}
+   at EWallet.Api.Clients.EWalletApiClient.PutAsync[T](String url, String key, Object payload) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Clients\EWalletApiClient.cs:line 67
+   at EWallet.Api.Services.UserService.UpdateProfileAsync(String token, ProfileLog profile) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Services\UserService.cs:line 106
+   at EWallet.Api.Controllers.UsersController.UpdateProfile(String token, ProfileRequest request) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Controllers\UsersController.cs:line 103
+2026-01-15 13:41:31 [Error] Update profile failed | token: "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjMwMzMyNzUsImV4cCI6MTc3MTAzNzYzNn0.XOmJy5uXklswLmlDf4cBV9bXru-0L0jar8NM5raUn_4" | Error: "PUT request failed. Status: 403, Response: {\"success\":false,\"data\":[],\"code\":\"incorrect_otp\",\"message\":\"Incorrect OTP entered\"}"
+System.ApplicationException: PUT request failed. Status: 403, Response: {"success":false,"data":[],"code":"incorrect_otp","message":"Incorrect OTP entered"}
+   at EWallet.Api.Clients.EWalletApiClient.PutAsync[T](String url, String key, Object payload) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Clients\EWalletApiClient.cs:line 67
+   at EWallet.Api.Services.UserService.UpdateProfileAsync(String token, ProfileLog profile) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Services\UserService.cs:line 106
+   at EWallet.Api.Controllers.UsersController.UpdateProfile(String token, ProfileRequest request) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Controllers\UsersController.cs:line 103
+2026-01-15 14:42:28 [Error] Top up failed | OrderRef: "3819ffee3d5545b885c8f1dd61c5ca28" | OrderTotal : 15.00 | Error: "The JSON value could not be converted to System.String. Path: $.checkoutRequest.data.ord_mercID | LineNumber: 0 | BytePositionInLine: 10898."
+System.Text.Json.JsonException: The JSON value could not be converted to System.String. Path: $.checkoutRequest.data.ord_mercID | LineNumber: 0 | BytePositionInLine: 10898.
+ ---> System.InvalidOperationException: Cannot get the value of a token type 'Number' as a string.
+   at System.Text.Json.Utf8JsonReader.GetString()
+   at System.Text.Json.Serialization.Converters.StringConverter.Read(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.ReadJsonAndSetMember(Object obj, ReadStack& state, Utf8JsonReader& reader)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.ReadJsonAndSetMember(Object obj, ReadStack& state, Utf8JsonReader& reader)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.ReadJsonAndSetMember(Object obj, ReadStack& state, Utf8JsonReader& reader)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, Utf8JsonReader& reader, Exception ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 utf8Json, JsonTypeInfo jsonTypeInfo, Nullable`1 actualByteCount)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 json, JsonTypeInfo jsonTypeInfo)
+   at System.Text.Json.JsonSerializer.Deserialize[TValue](String json, JsonSerializerOptions options)
+   at EWallet.Api.Clients.EWalletApiClient.PostAsync[T](String url, Object payload) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Clients\EWalletApiClient.cs:line 37
+   at EWallet.Api.Services.WalletService.TopupAsync(TopupTransaction topup) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Services\WalletService.cs:line 53
+   at EWallet.Api.Controllers.WalletController.Topup(TopupRequest request) in C:\Users\suey.seing\OneDrive - Green Packet International Sdn Bhd\Desktop\EWallet\EWallet.Api\EWallet.Api\Controllers\WalletController.cs:line 38
